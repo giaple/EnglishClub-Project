@@ -3,19 +3,31 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+header {
+  position: fixed;
+  width: 100%;
+  left: 0px; top: 0px;
+  background: #0bbfe8;
 }
 
-ul li {
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0px; bottom: 0px;
+  background: black;
+}
+
+a {
+  color: #ffffff;
+}
+
+ul.abc li {
   display: inline;
   padding: 10px 10px 10px 10px;
-  background: #f48641;
+  color: #ffffff;
 }
 
 ul {
   list-style-type: none;
   text-align: center;
-  padding: 20px;
-  background: #e242f4;
 }
